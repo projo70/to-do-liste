@@ -1,0 +1,48 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    /*Bild als Hintergrund festlegen*/
+    background-image: url("desk.png");
+    background-repeat: no-repeat;
+	background-position: 90% top;
+	color: midnightblue;
+	height: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.to-do {
+    /*Inhalt zentrieren*/
+    display:flex;
+    justify-content: center;
+}
+
+.liste {
+    /*Abstand nach links*/
+    margin-left: 550px; 
+}
+button {
+    background-color: rgb(137, 132, 199);
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 3px 10px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
